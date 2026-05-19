@@ -1,0 +1,20 @@
+I have a few ultimate identity keys stored in hardware, tamper-resistant
+storage (such as Yubikey). The private material never leaves there.
+
+Hardware storage may be lost or broken, that's why I have a few of them, and
+newer ones will be certified by older ones, before older ones break.
+
+I also have a daily driver key, certified by all ultimate identity keys.
+This daily driver key could be stolen, since it stays across different machines
+I have used. If I found it has been, then I will revoke it. If you are
+suspicious, feel free to request a signature from one of my ultimate keys.
+
+Please be aware that advance malware can trick my machine to request my
+hardware storage to sign for something, when it's plugged in my computer.
+There's little defense to that, except to minimize such exposure windows and to
+require PIN upon every signature.
+
+Current keys:
+pk.gpg (oldest hardware ultimate key)
+yubi2-pub.gpg (2nd hardware ultimate key)
+daily-pub.gpg (daily driver key).
